@@ -4,6 +4,7 @@ const Joke = () => {
     const [joke, setJoke] = useState({setup:'',punchline:''});
     const [showPunchline, setShowPunchline] = useState(false);
     const [animate, setAnimate] = useState(false);
+    
 
     const fetchJoke = () => {
 
@@ -22,9 +23,9 @@ const Joke = () => {
         setShowPunchline(false);
         setTimeout(() => {
             setShowPunchline(true);
-        setAnimate(true)}, 3000);
+        setAnimate(true)}, 3500);
         })
-    .catch(error => console.error ("Sorry, something went wrong!", error))
+    .catch(error => console.error ("Sorry, something went wrong!", error));
     }
 
   return (
@@ -33,8 +34,11 @@ const Joke = () => {
     <div className="max-w-md my-16">
       <h1 className="text-5xl font-bold">Your Random Joke</h1>
       <div className="py-6" id="joke-p1">
-        <p className="py-6 font-bold text-lg">{joke.setup}</p>
-        <p className={`py-6 ${animate ? 'zoom-animation' : ''}`}>{showPunchline && joke.punchline}</p>
+<p className="py-6 font-bold text-lg">{joke.setup}</p>
+  <p className={`py-6 ${animate ? 'zoom-animation' : ''}`}>
+    {showPunchline && joke.punchline}</p>
+        
+
       </div>
       <button className="btn btn-primary" onClick={fetchJoke}>Get Your Joke</button>
     </div>
