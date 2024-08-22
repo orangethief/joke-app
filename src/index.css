@@ -12,5 +12,5 @@
 }
 
 .zoom-animation {
-  animation: zoom-in-out 0.5s ease-in-out infinite; /* Adjust duration as needed */
+  animation: zoom-in-out 0.5s ease-in-out forwards; /* Adjust duration as needed */
 }
