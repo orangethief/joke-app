@@ -4,16 +4,20 @@ const About = () => {
   return (
     <div>
         <div className="join join-vertical w-full">
-  <div className="collapse collapse-arrow join-item border-base-300 border">
-    <input type="radio" name="my-accordion-4" defaultChecked />
-    <div className="collapse-title text-xl font-medium">Why is laughing important?</div>
-    <div className="collapse-content">
-      <p>Laughter is a powerful tool that brings numerous benefits to our lives. It serves as a natural stress reliever, releasing endorphins that enhance our mood and promote a sense of well-being. Physically, laughter improves heart health by increasing blood flow and relaxing blood vessels. It can also strengthen the immune system, helping us fight off illness more effectively. Beyond health, laughter fosters connections with others, creating bonds and enhancing relationships. It acts as a social glue, allowing us to share joy and lightness in everyday moments. Furthermore, laughter can inspire creativity, enabling us to think outside the box and approach challenges with a fresh perspective. In tough times, a good laugh can provide relief and help us cope with difficult situations. Ultimately, embracing laughter in our lives enriches our experiences and enhances our overall happiness.</p>
-    </div>
-  </div>
-  <div className="collapse collapse-arrow join-item border-base-300 border">
-    <input type="radio" name="my-accordion-4" />
-    <div className="collapse-title text-xl font-medium">When has your neighbour laughed the last time?</div>
+          <div className="collapse collapse-arrow join-item border-base-300 border">
+            <input type="radio" name="my-accordion-4" defaultChecked />
+            <div className="collapse-title text-xl font-medium prose">
+              <h2>Why is laughing important?</h2>
+            </div>
+            <div className="collapse-content">
+              <p>Laughter is a powerful tool that brings numerous benefits to our lives. It serves as a natural stress reliever, releasing endorphins that enhance our mood and promote a sense of well-being. Physically, laughter improves heart health by increasing blood flow and relaxing blood vessels. It can also strengthen the immune system, helping us fight off illness more effectively. Beyond health, laughter fosters connections with others, creating bonds and enhancing relationships. It acts as a social glue, allowing us to share joy and lightness in everyday moments. Furthermore, laughter can inspire creativity, enabling us to think outside the box and approach challenges with a fresh perspective. In tough times, a good laugh can provide relief and help us cope with difficult situations. Ultimately, embracing laughter in our lives enriches our experiences and enhances our overall happiness.</p>
+            </div>
+         </div>
+        <div className="collapse collapse-arrow join-item border-base-300 border">
+          <input type="radio" name="my-accordion-4" />
+          <div className="prose collapse-title text-xl font-medium">
+            <h2>When has your neighbour laughed the last time?</h2>
+          </div>
     <div className="collapse-content">
       <p>People laugh at varying frequencies, depending on factors like age, social environment, and individual personality. On average:
 
@@ -34,7 +38,7 @@ Overall, while there is a general range for laughter frequency, individual exper
   </div>
   <div className="collapse collapse-arrow join-item border-base-300 border">
     <input type="radio" name="my-accordion-4" />
-    <h1 className="collapse-title text-xl font-medium">Why we do this!</h1>
+    <h1 className="collapse-title text-xl font-medium prose"><h2>Why we do this!</h2></h1>
     <div className="collapse-content">
       <p>Welcome to our Random Jokes page! Here, we believe that laughter is the best medicine, and what better way to brighten your day than with a spontaneous joke? Our platform is dedicated to bringing you a never-ending supply of humor, one joke at a time.
 

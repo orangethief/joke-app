@@ -9,5 +9,5 @@ module.exports = {
     require('daisyui')
   ],
   daisyui:{
-    themes: ["forest","light"]
+    themes: ["forest","lemonade"]
 } }

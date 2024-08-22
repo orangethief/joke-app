@@ -10,7 +10,7 @@ const Navbar = () => {
         localStorage.setItem('theme', theme);
     }, [theme]);
     const handleToggle = () => {
-        setTheme((prevTheme)=>(prevTheme === 'forest' ? 'light' : 'forest'));
+        setTheme((prevTheme)=>(prevTheme === 'lemonade' ? 'forest' : 'lemonade'));
     };
     
   return (

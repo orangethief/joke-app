@@ -3,13 +3,14 @@
 const Contact = () => {
   return (
     <div className="w-full">
-        <div className="prose max-w-full m-6">
+
+        <div className="prose max-w-full m-6 text-center">
           <h1>You want to change your mood and laugh more?</h1>
           <h3>Subscribe to our newsletter and don't miss any laughs!</h3>
         </div>
-        <div className="join m-6">
+        <div className="join m-6 flex justify-center">
           <input className="input input-bordered join-item" placeholder="Email" />
-          <button className="btn bg-neutral join-item rounded-r-full">Subscribe</button>
+          <button className="btn bg-neutral text-neutral-content join-item rounded-r-full">Subscribe</button>
         </div>
         
         <div className="flex justify-center">

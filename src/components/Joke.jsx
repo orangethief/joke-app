@@ -28,7 +28,7 @@ const Joke = () => {
     }
 
   return (
-    <div className="hero bg-base-100  min-h-full">
+    <div className="hero bg-base-100  min-h-screen">
   <div className="hero-content text-center">
     <div className="max-w-md my-16">
       <h1 className="text-5xl font-bold">Your Random Joke</h1>
