@@ -3,7 +3,7 @@ import { FaRegLaughSquint, FaRegLaugh,FaRegSmileWink  } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <footer className="footer flex justify-between bg-neutral text-neutral-content p-10 rounded-b m-6">
+    <footer className="footer flex justify-between bg-neutral text-neutral-content p-10 rounded-b my-6">
   <div>
   <FaRegSmileWink size={100} />
   </div>
