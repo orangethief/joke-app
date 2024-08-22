@@ -4,7 +4,7 @@ import { FaPersonHalfDress } from "react-icons/fa6";
 
 const About = () => {
   return (
-    <div className="px-6 py-4">
+    <div className="px-6 py-4 min-h-[60vh]">
         <div className="join join-vertical w-full">
           <div className="collapse collapse-arrow join-item border-base-300 border">
             <input type="radio" name="my-accordion-4" defaultChecked/>
