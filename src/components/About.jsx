@@ -2,7 +2,7 @@
 
 const About = () => {
   return (
-    <div>
+    <div className="max-auto">
         <div className="join join-vertical w-full">
           <div className="collapse collapse-arrow join-item border-base-300 border">
             <input type="radio" name="my-accordion-4" defaultChecked />

@@ -2,7 +2,7 @@
 
 const Contact = () => {
   return (
-    <div className="w-full">
+    <div className="max-auto">
 
         <div className="prose max-w-full m-6 text-center">
           <h1>You want to change your mood and laugh more?</h1>
