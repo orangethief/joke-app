@@ -20,7 +20,7 @@ const Navbar = () => {
   <Link to="/about" className="px-4">About</Link>
    </div>
   <div className=" navbar-center">
-    <Link className="btn btn-ghost text-3xl font-bold" to="/">Your Random Joke</Link>
+    <Link className="btn btn-ghost text-2xl sm:text-3xl font-bold" to="/">Your Random Joke</Link>
   </div>
   <div className="navbar-end">
     <Link className="px-4" to="/contact">Contact</Link>

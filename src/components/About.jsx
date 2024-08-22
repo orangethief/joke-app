@@ -4,8 +4,8 @@ import { FaPersonHalfDress } from "react-icons/fa6";
 
 const About = () => {
   return (
-    <div className="max-auto min-h-[65vh] pr-6 pl-2 py-4">
-        <div className="join join-vertical">
+    <div className="px-6 py-4">
+        <div className="join join-vertical w-full">
           <div className="collapse collapse-arrow join-item border-base-300 border">
             <input type="radio" name="my-accordion-4" defaultChecked/>
             <div className="collapse-title text-xl font-medium">
@@ -17,11 +17,11 @@ const About = () => {
          </div>
         <div className="collapse collapse-arrow join-item border-base-300 border">
           <input type="radio" name="my-accordion-4" />
-          <div className="collapse-title text-xl font-medium w-full">
+          <div className="collapse-title text-xl font-medium">
             <div className="prose"><h2>When has your neighbour laughed the last time?</h2></div>
           </div>
     <div className="collapse-content">
-    <div className="stats shadow">
+    <div className="stats shadow flex flex-wrap md:flex-nowrap lg:px-32 ">
   <div className="stat">
     <div className="stat-figure text-secondary">
     <MdChildCare className="text-4xl"/>
@@ -50,9 +50,9 @@ const About = () => {
   </div>
 </div>
       
-<div className="w-full">
+<div className="">
 <div className="prose"><h3 className="pt-4">Factors Influencing Laughter Frequency</h3></div>
-<div className=" w-full"><blockquote>
+<div className=""><blockquote>
   <ul className="list-none">
     <li>1. Social Interactions: Engaging in conversations, watching comedies, or spending time with friends can increase laughter.</li>
     <li>2. Environment: A positive or humorous environment encourages more laughter.</li>
